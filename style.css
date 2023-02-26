@@ -1,0 +1,148 @@
+@font-face {
+    font-family: casamento;
+    src: url('static/DancingScript-Bold.ttf');
+}
+
+@font-face {
+    font-family: outros;
+    src: url('static/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: guest;
+    src: url('static/Raleway-Regular.ttf');
+}
+
+body{
+    margin: 0;
+    font-family: outros;
+    font-size: 20px;
+    font-weight: 600;
+    background: white;
+    text-align: center;
+    position: relative;
+    line-height: 1;
+}
+
+
+.container{
+    box-sizing: border-box;
+    position: relative;
+    margin:auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: linear-gradient(to bottom, transparent 0%, #fff 70%), url(diogoeana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100vw;
+    max-width: 700px;
+    height: 140vh;
+    box-shadow: 10px 10px 10px rgb(56, 56, 56);
+
+}
+
+
+.hidden{
+    height: 50%;
+    width: 100%;
+}
+
+
+.convidado{
+    font-family: guest;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 5%;
+}
+
+
+
+.names{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 50px;
+    font-family: casamento;
+    font-weight: 200;
+    color: #8a4b18;
+
+}
+
+.footer{
+    bottom: 5vh;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.foot{
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    max-width: 700px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+
+.info{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-image: url('info.png');
+    background-repeat: no-repeat;
+    width: 33.333%;
+    height: 8vh;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+}
+
+.info:hover{
+    transition: 100ms;
+    filter: opacity(0.5) drop-shadow(0 0 0 #8a4b18);
+
+}
+
+.igreja{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-image: url('igreja.png');
+    background-repeat: no-repeat;
+    width: 33.333%;
+    height: 8vh;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+
+}
+
+#texts{
+    height: 50%;
+}
+
+.igreja:hover{
+    transition: 100ms;
+    filter: opacity(0.5) drop-shadow(0 0 0 #8a4b18);
+}
+
+.contato{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-image: url('contato.png');
+    background-repeat: no-repeat;
+    width: 33.333%;
+    height: 8vh;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.contato:hover{
+    transition: 100ms;
+    filter: opacity(0.5) drop-shadow(0 0 0 #8a4b18);
+}
+
