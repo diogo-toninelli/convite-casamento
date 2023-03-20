@@ -92,15 +92,15 @@ text = 'Você foi convidado para o casamento de'
 
 document.getElementById('gen-text').innerText = text
 
-contatos_HTML = `<div><span class="convidado">Telefones</span>
+contatos_HTML = `<div><span class="convidado">Confirme a Sua Presença</span>
 <br><br>
 Diogo - 27 99772-3161 -
-<a href="https://wa.me/5527997723161" target="_blank">Whatsapp do Diogo</a>
+<a href="https://wa.me/5527997723161?text=Confirmo%20Presença" target="_blank">Whatsapp do Diogo</a>
 
 <br><br>
 
 Ana Júlia - 34 98403-2177 - 
-<a href="https://wa.me/5534984032177" target="_blank">Whatsapp da Ana Júlia</a>
+<a href="https://wa.me/5534984032177?text=Confirmo%20Presença" target="_blank">Whatsapp da Ana Júlia</a>
 
 <br><br><br>
 
@@ -108,7 +108,9 @@ Ana Júlia - 34 98403-2177 -
 Diogo - @diogo.toninelli - <a href="https://www.instagram.com/diogo.toninelli/" target="_blank">Perfil do Diogo</a>
 <br><br>
 
-Ana Júlia - @anaj_chagas - <a href="https://www.instagram.com/anaj_chagas/" target="_blank">Perfil da Ana</a></div>`
+Ana Júlia - @anaj_chagast - <a href="https://www.instagram.com/anaj_chagast/" target="_blank">Perfil da Ana</a>
+<br><br><br>Obs: A presença deve ser confirmada até dia 01/06/2023.
+</div>`
 igreja_HTML = `Igreja Santo Antônio de Pádua Localizada na Av. Bicanga.
 <br><br><br>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.172078645638!2d-40.20394858521993!3d-20.21016918644747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81c446c6ad565%3A0xca3eef8312e5eaf1!2sComunidade%20Santo%20Ant%C3%B4nio%20(CEB)%20-%20Bicanga!5e0!3m2!1spt-BR!2sbr!4v1677367891909!5m2!1spt-BR!2sbr" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
